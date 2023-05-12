@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="First Name"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Middle Name"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your Email Address"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Specify your Gender"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your PhoneNumber"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Create your Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Create Your Account"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="SurName"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
